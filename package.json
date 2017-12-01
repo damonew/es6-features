@@ -1,0 +1,20 @@
+{
+  "name": "es6-features",
+  "version": "0.1.1",
+  "description": "ES6 Specs to learn features",
+  "author": "Damon Williams",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "node_modules/.bin/eslint spec",
+    "test": "node index"
+  },
+  "engines": {
+    "node": ">= 4.2.0"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "~2.1.0",
+    "jasmine": "~2.4.1",
+    "jasmine-spec-reporter": "~2.4.0"
+  }
+}
